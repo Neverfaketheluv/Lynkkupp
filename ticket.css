@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    transition: all .5s linear;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 9%;
+    background: white;
+    z-index: 1000;
+}
+
+.navlogo img{
+    width: 80px;
+    margin-left: 50px;
+}
+
+header a {
+    color: black;
+    font-size: 1rem;
+    margin: 0 .8rem;
+    text-decoration: none;
+}
+
+header a:active {
+    color:  rgb(0, 174, 255);
+}
+
+header #meun-bar{
+    color: black;
+    font-size: 3rem;
+    border: .1rem solid black;
+    cursor: pointer;
+    border-radius: .5rem;
+    padding: .5rem 1.2rem;
+    display: none;
+
+}
+@media(max-width:995px){
+        
+    header #meun-bar{ 
+        display: initial;
+    }
+
+    header .Nav-Link{
+        position: absolute;
+        top: 100%;
+        left:0;
+        right:0;
+        background:  rgba(7, 7, 7, 0.2);
+        border-top: .1rem solid rgba(39, 10, 201, 0.2);
+        padding: 1rem 2rem ;
+        clip-path: polygon(0 0 , 100% 0 , 100% 0 , 0 0);
+    }
+
+    header .Nav-Link.active{
+        clip-path: polygon(0 0 , 100% 0 , 100% 100% , 0 100%);
+
+    }
+    header .Nav-Link a {
+        display: block;
+        padding: 1.5rem;
+        margin: 1.5rem;
+        border-radius: .5rem;
+        background: black;
+        color: #fff;
+    }
+}
+
+.banner img{
+    width: 100%;
+    height: 45rem;
+    background-color: aliceblue;
+}
+
+@media(max-width:995px){
+    .banner img{
+        width: 45rem;
+        height: 22rem;
+        margin-top: 70px;
+    }
+}
+.banner img{
+    width: 100%;
+    height: 45rem;
+    background-color: aliceblue;
+}
+
+@media(max-width:995px){
+    .banner img{
+        width: 50rem;
+        height: 22rem;
+        margin-top: 70px;
+    }
+}
