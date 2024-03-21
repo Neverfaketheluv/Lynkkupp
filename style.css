@@ -87,7 +87,7 @@ header #meun-bar{
 
 @media(max-width:995px){
     .banner img{
-        width: 50rem;
+        width: 100%;
         height: 22rem;
         margin-top: 70px;
     }
@@ -110,6 +110,7 @@ header #meun-bar{
     text-align: center;
     margin-top: 1rem;
     color: rgb(127, 125, 125);
+    margin-bottom: -5rem;
 }
 
 @media(max-width:995px){
@@ -124,10 +125,10 @@ header #meun-bar{
 }
 
 .container1{
-    /* background-color: aliceblue; */
+    background-color: aliceblue;
     padding-top:0rem;
     padding-bottom: 5rem;
-    margin-top: 0px;
+    margin-top: -1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,8 +142,8 @@ header #meun-bar{
     height: fit-content;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    margin-bottom: 10rem;
-    margin-top: 3rem;
+    /* margin-bottom: 10rem; */
+    /* margin-top: 3rem; */
     
 }
 
@@ -365,6 +366,16 @@ header #meun-bar{
     justify-content: center;
     color: #fff;
     font-size: 20px;
+}
+
+.welcome .msgcontainer a{
+    color: #fff;
+    font-size: 20px;
+    transition: transform 0.5s;
+}
+
+.welcome .msgcontainer a:hover{
+    transform: scale(1.3);
 }
 
 
