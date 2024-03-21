@@ -48,10 +48,26 @@ header #meun-bar{
 
 }
 
-@media(max-width:995px){
+@media(max-width:480px){
+
+    header{
+        width: 480px;
+    
+    }
         
     header #meun-bar{ 
         display: initial;
+        font-size:1.5rem;
+        border: 1px solid black;
+        cursor: pointer;
+        border-radius: .2rem;
+        padding: .3rem .5rem;
+ 
+        
+    }
+    .navlogo img{
+        width: 80px;
+        margin-left: -30px;
     }
 
     header .Nav-Link{
@@ -85,7 +101,7 @@ header #meun-bar{
     background-color: aliceblue;
 }
 
-@media(max-width:995px){
+@media(max-width:480px){
     .banner img{
         width: 100%;
         height: 22rem;
@@ -113,10 +129,10 @@ header #meun-bar{
     margin-bottom: -5rem;
 }
 
-@media(max-width:995px){
+@media(max-width:480px){
     .ticket h1{
-        text-align:start;
-        margin-left: 2rem;
+        text-align:center;
+        /* margin-left: 2rem; */
         font-size: 25px;
     }
     .ticket p{
@@ -213,7 +229,7 @@ header #meun-bar{
     background-color: rgb(0, 174, 255);
 }
 
-@media(max-width:995px){
+@media(max-width:480px){
     .container2 h1{
         font-size: 1.5rem;
     }
@@ -224,6 +240,7 @@ header #meun-bar{
         width: 30rem;
     }
 }
+
 
 .container3{
     background-color: rgb(0, 174, 255);
@@ -416,4 +433,156 @@ header #meun-bar{
 }
 .gallery::-webkit-scrollbar{
     display: none;
+}
+
+@media(max-width:480px){
+ 
+    #backBtn, #nextBtn{
+        width: 30px;
+        margin: 20px;
+    }
+
+    .gallery{
+        width: 480px;
+        display: flex;
+        gap: 10px;
+    }
+    .gallery .wrap{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        padding: 10px;
+        flex: none;
+    }
+    /* .container1{
+        background-color: aliceblue;
+        padding-top:0rem;
+        padding-bottom: 5rem;
+        margin-top: -1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    } */
+    
+    .banner2{
+        border: none;
+        background-color: #fff;
+        width: 21rem;
+        height: fit-content;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        /* margin-bottom: 10rem; */
+        /* margin-top: 3rem; */
+        
+    }
+    
+    .banner2 img{
+        width: 21rem;
+        height: 15rem;
+        margin-top: 0rem;
+    }
+    
+
+    .banner2 h2{
+        margin-left: 13rem;
+        margin-top: -1.5rem;
+        margin-right: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .container2{
+        text-align: center;
+        margin-top: 3rem;
+        background-color: rgba(216, 212, 212, 0.942);
+        padding: 3rem;
+    }
+    
+    
+    .container2 h1{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .container2 p{
+        font-size: 0.75rem;
+        color: rgb(49, 48, 48);
+        margin-bottom: 3rem;
+    }
+    
+    .container2 input{
+        padding: 20px;
+        width: 25rem;        
+        border-radius: 10px;
+    }
+    
+    .container2 button{
+        padding: 15px 30px;
+        border-radius: 10px;
+        color: white;
+        background-color: rgb(0, 174, 255);
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .container3{
+        background-color: rgb(0, 174, 255);
+        padding: 2rem 3rem;
+        color: #fff;
+        display: block;
+
+        
+    }
+
+    .helpful h3{
+        margin-left: 0rem;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    
+    .link1 a{
+        display: grid;
+        margin-top: 1rem;
+        color: #fff;
+        margin-left: 0rem;
+        text-decoration: none;
+        
+    }
+    
+    .link2 a{
+        display: grid;
+        margin-top: 1rem;
+        color: #fff;
+        margin-left: 0rem;
+        text-decoration: none;
+    }
+    
+    .link3 a{
+        display: grid;
+        margin-top: 1rem;
+        color: #fff;
+        margin-left: 0rem;
+        text-decoration: none;
+    }
+
+    .dli h2{
+        font-size: 20px;
+        margin-bottom: 1rem; 
+        margin-top: 1rem;  
+    }
+    
+    .dli p{
+ 
+        width: 400px;
+        margin-bottom: 20px;
+    
+    }
+
+    .connect{
+        padding-left: 3rem;
+       
+    }
+ 
+
 }
