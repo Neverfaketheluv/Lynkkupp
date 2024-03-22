@@ -48,12 +48,10 @@ header #meun-bar{
 
 }
 
-@media(max-width:480px){
+/* @media(max-width:480px){
 
     header{
         width: 480px;
-        /* background-color: aqua; */
-    
     }
         
     header #meun-bar{ 
@@ -94,7 +92,7 @@ header #meun-bar{
         background: black;
         color: #fff;
     }
-}
+} */
 
 .banner img{
     width: 100%;
@@ -102,13 +100,13 @@ header #meun-bar{
     background-color: aliceblue;
 }
 
-@media(max-width:480px){
+/* @media(max-width:480px){
     .banner img{
         width: 480px;
         height: 22rem;
         margin-top: 70px;
     }
-}
+} */
 
 .ticket{
     background-color: aliceblue;
@@ -130,7 +128,7 @@ header #meun-bar{
     margin-bottom: -5rem;
 }
 
-@media(max-width:480px){
+/* @media(max-width:480px){
     .ticket h1{
         text-align:center;
         width: 480px;
@@ -142,7 +140,7 @@ header #meun-bar{
     .ticket{
       width: 480px;
 }
-}
+} */
 
 .container1{
     background-color: aliceblue;
@@ -232,7 +230,7 @@ header #meun-bar{
     color: white;
     background-color: rgb(0, 174, 255);
 }
-
+/* 
 @media(max-width:480px){
     .container2 h1{
         font-size: 1.5rem;
@@ -243,7 +241,7 @@ header #meun-bar{
     .container2 input{
         width: 30rem;
     }
-}
+} */
 
 
 .container3{
@@ -296,7 +294,7 @@ header #meun-bar{
     text-decoration: none;
 }
 
-@media(max-width:995px){
+/* @media(max-width:995px){
     .dli h2{
         font-size: 20px;
         margin-bottom: 1rem; 
@@ -329,7 +327,7 @@ header #meun-bar{
         color: #fff;
         margin-left: -100px;
     }
-}
+} */
 
 .connect{
     background-color: rgb(0, 174, 255);
@@ -440,7 +438,76 @@ header #meun-bar{
 }
 
 @media(max-width:480px){
+    header{
+        width: 480px;
+    }
+        
+    header #meun-bar{ 
+        display: initial;
+        font-size:1.5rem;
+        border: 1px solid black;
+        cursor: pointer;
+        border-radius: .2rem;
+        padding: .3rem .5rem;
  
+        
+    }
+    .navlogo img{
+        width: 80px;
+        margin-left: -30px;
+    }
+
+    header .Nav-Link{
+        position: absolute;
+        top: 100%;
+        left:0;
+        right:0;
+        background:  rgba(7, 7, 7, 0.2);
+        border-top: .1rem solid rgba(39, 10, 201, 0.2);
+        padding: 1rem 2rem ;
+        clip-path: polygon(0 0 , 100% 0 , 100% 0 , 0 0);
+    }
+
+    header .Nav-Link.active{
+        clip-path: polygon(0 0 , 100% 0 , 100% 100% , 0 100%);
+    }
+    header .Nav-Link a {
+        display: block;
+        padding: 1.5rem;
+        margin: 1.5rem;
+        border-radius: .5rem;
+        background: black;
+        color: #fff;
+    }
+
+    .banner img{
+        width: 480px;
+        height: 22rem;
+        margin-top: 70px;
+    }
+
+    .ticket h1{
+        text-align:center;
+        width: 480px;
+        font-size: 20px;
+    }
+    .ticket p{
+        display: none;
+    }
+    .ticket{
+      width: 480px;
+    }
+
+    .container2 h1{
+        font-size: 1.5rem;
+    }
+    .container2 p{
+        font-size: 15px;
+    }
+    .container2 input{
+        width: 30rem;
+    }
+
     #backBtn, #nextBtn{
         width: 30px;
         margin: 20px;
@@ -454,10 +521,9 @@ header #meun-bar{
     .gallery .wrap{
         width: 480px;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 20px;
-        padding: 10px;
-        flex: none;
+    }
+    .gallery div .container1{
+        width: 480px;
     }
     
     .banner2{
@@ -579,12 +645,5 @@ header #meun-bar{
     }
     .copyright{
         width: 480px;
-        /* background-color: rgb(0, 174, 255);
-        text-align: center;
-        color: #fff;
-        padding-top:20px;
-        padding-bottom: 5rem; */
     }
- 
-
 }
