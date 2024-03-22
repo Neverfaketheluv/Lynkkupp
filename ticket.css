@@ -45,37 +45,6 @@ header #meun-bar{
     border-radius: .5rem;
     padding: .5rem 1.2rem;
     display: none;
-
-}
-@media(max-width:995px){
-        
-    header #meun-bar{ 
-        display: initial;
-    }
-
-    header .Nav-Link{
-        position: absolute;
-        top: 100%;
-        left:0;
-        right:0;
-        background:  rgba(7, 7, 7, 0.2);
-        border-top: .1rem solid rgba(39, 10, 201, 0.2);
-        padding: 1rem 2rem ;
-        clip-path: polygon(0 0 , 100% 0 , 100% 0 , 0 0);
-    }
-
-    header .Nav-Link.active{
-        clip-path: polygon(0 0 , 100% 0 , 100% 100% , 0 100%);
-
-    }
-    header .Nav-Link a {
-        display: block;
-        padding: 1.5rem;
-        margin: 1.5rem;
-        border-radius: .5rem;
-        background: black;
-        color: #fff;
-    }
 }
 
 .banner img{
@@ -84,26 +53,6 @@ header #meun-bar{
     background-color: aliceblue;
 }
 
-@media(max-width:995px){
-    .banner img{
-        width: 45rem;
-        height: 22rem;
-        margin-top: 70px;
-    }
-}
-.banner img{
-    width: 100%;
-    height: 45rem;
-    background-color: aliceblue;
-}
-
-@media(max-width:995px){
-    .banner img{
-        width: 50rem;
-        height: 22rem;
-        margin-top: 70px;
-    }
-}
 .hero{
     display: flex;
     padding-left: 1.5rem;
@@ -276,41 +225,6 @@ header #meun-bar{
     text-decoration: none;
 }
 
-/* @media(max-width:995px){
-    .dli h2{
-        font-size: 20px;
-        margin-bottom: 1rem; 
-
-    }
-    .dli p{
-        font-size: 15px;
-    }
-    .helpful h3{
-        margin-left: -20rem;
-        font-size: 20px;
-        margin-bottom: 1rem;
-
-    }
-    .link1 a{
-        display: grid;
-        margin-top: 2rem;
-        color: #fff;
-        margin-left: -300px;
-    }
-    .link2 a{
-        display: grid;
-        margin-top: 2rem;
-        color: #fff;
-        margin-left: -200px;
-    }
-    .link3 a{
-        display: grid;
-        margin-top: 2rem;
-        color: #fff;
-        margin-left: -100px;
-    }
-} */
-
 .connect{
     background-color: rgb(0, 174, 255);
     color: #fff;
@@ -377,4 +291,225 @@ header #meun-bar{
 
 .welcome .msgcontainer a:hover{
     transform: scale(1.3);
+}
+
+@media(max-width:480px){
+    header{
+        max-width: 480px;
+    }
+        
+    header #meun-bar{ 
+        display: initial;
+        font-size:1.5rem;
+        border: 1px solid black;
+        cursor: pointer;
+        border-radius: .2rem;
+        padding: .3rem .5rem;
+ 
+        
+    }
+    .navlogo img{
+        width: 80px;
+        margin-left: -30px;
+    }
+
+    header .Nav-Link{
+        position: absolute;
+        top: 100%;
+        left:0;
+        right:0;
+        background:  rgba(7, 7, 7, 0.2);
+        border-top: .1rem solid rgba(39, 10, 201, 0.2);
+        padding: 1rem 2rem ;
+        clip-path: polygon(0 0 , 100% 0 , 100% 0 , 0 0);
+    }
+
+    header .Nav-Link.active{
+        clip-path: polygon(0 0 , 100% 0 , 100% 100% , 0 100%);
+    }
+    header .Nav-Link a {
+        display: block;
+        padding: 1.5rem;
+        margin: 1.5rem;
+        border-radius: .5rem;
+        background: black;
+        color: #fff;
+    }
+
+    .banner img{
+        width: 480px;
+        height: 22rem;
+        margin-top: 70px;
+    }
+
+    .hero{
+        display:contents;
+        width: 480px;
+    }
+    .container1 h1{
+        font-size: 1.5rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-bottom: 1rem;
+    }
+    .container1 img{
+        width:13rem;
+        height: 15rem;
+        border-radius: 5px;
+    
+    }
+    .container2{
+        text-align: center;
+        justify-content: left;
+        margin-top: -13rem;
+        margin-left: 10rem;
+     
+    }
+    .container2 h1{
+        font-size: 1.5rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-bottom: 1rem;
+        padding-left: 4rem;
+    }
+    .body h5{
+        font-size: 10px;
+        margin-bottom: 1px;
+    }
+    .body .firstP{
+        font-size: 13px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-bottom: 8px;
+        color: rgb(132, 130, 130);
+        padding-left: 8px;
+    }
+    .body .secondP{
+        font-size: 15px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-bottom: 20px;
+        color: rgb(132, 130, 130);
+        padding-left: 4.5rem;
+    }
+    .body a{
+        margin-left: 0rem;
+        text-decoration: none;
+        border: solid;
+        border-radius: 5px;
+        color: rgb(132, 130, 130);
+        padding: 5px 10px;
+        border-width: 1px;
+    }
+    .body a:hover{
+        background-color: rgb(110, 109, 109);
+        color: white;
+    }
+    .whenwhere{
+        margin-top: 1rem;
+        padding-left: 1.5rem;
+        font-size: 15px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .DTL{
+        display: flex;
+        gap: 10px;
+        margin-top: 1.5rem;
+    }
+    .DTL span{
+        border: none;
+        padding: 10px 10px;
+        border-radius: 50%;
+        background:  rgb(0, 174, 255);
+        font-size: 15px;
+        color: white;
+    }
+    .DTL h5{
+        margin-left: 35px;
+        font-size: 10px;
+        margin-top: -2rem;
+    }
+    .DTL p{
+        margin-left: 35px;
+        font-size: 10px;    
+    }
+
+    .about{
+        margin-top: 3rem;
+        padding-left: 1.5rem;
+    }
+    .about h3{
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    .about p{
+        color: rgb(132, 130, 130);
+        border: none;
+        display: inline;
+        font-size: 10px;
+    }
+    .tag{
+        padding-left: 1.5rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+    .container3{
+        background-color: rgb(0, 174, 255);
+        padding: 2rem 3rem;
+        color: #fff;
+        display: block;
+        width: 480px;
+
+        
+    }
+
+    .helpful h3{
+        margin-left: 0rem;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    
+    .link1 a{
+        display: grid;
+        margin-top: 1rem;
+        color: #fff;
+        margin-left: 0rem;
+        text-decoration: none;
+        
+    }
+    
+    .link2 a{
+        display: grid;
+        margin-top: 1rem;
+        color: #fff;
+        margin-left: 0rem;
+        text-decoration: none;
+    }
+    
+    .link3 a{
+        display: grid;
+        margin-top: 1rem;
+        color: #fff;
+        margin-left: 0rem;
+        text-decoration: none;
+    }
+
+    .dli h2{
+        font-size: 20px;
+        margin-bottom: 1rem; 
+        margin-top: 1rem;  
+    }
+    
+    .dli p{
+ 
+        width: 400px;
+        margin-bottom: 20px;
+    
+    }
+
+    .connect{
+        width: 480px;
+        padding-left: 3rem;
+       
+    }
+    .copyright{
+        width: 480px;
+    }
+    
 }
