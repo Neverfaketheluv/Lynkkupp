@@ -158,11 +158,11 @@ header #meun-bar {
     border-radius: 7px;
 }
 
-@media(max-width:995px) {
+/* @media(max-width:995px) {
     .hero {
         display: block;
     }
-}
+} */
 
 .container3 {
     margin-top: 3rem;
@@ -221,7 +221,7 @@ header #meun-bar {
     padding-top: 3rem;
 }
 
-@media(max-width:995px) {
+/* @media(max-width:995px) {
     .dli h2 {
         font-size: 20px;
         margin-bottom: 1rem;
@@ -259,7 +259,7 @@ header #meun-bar {
         color: #fff;
         margin-left: -100px;
     }
-}
+} */
 .connect{
     background-color: rgb(0, 174, 255);
     color: #fff;
@@ -334,3 +334,227 @@ header #meun-bar {
 .welcome .msgcontainer a:hover{
     transform: scale(1.3);
 }
+
+@media(max-width:480px){
+    header{
+        width: 480px;
+    }
+        
+    header #meun-bar{ 
+        display: initial;
+        font-size:1.5rem;
+        border: 1px solid black;
+        cursor: pointer;
+        border-radius: .2rem;
+        padding: .3rem .5rem;
+ 
+        
+    }
+    .navlogo img{
+        width: 80px;
+        margin-left: 30px;
+    }
+
+    header .Nav-Link{
+        position: absolute;
+        top: 100%;
+        left:0;
+        right:0;
+        background:  rgba(7, 7, 7, 0.2);
+        border-top: .1rem solid rgba(39, 10, 201, 0.2);
+        padding: 1rem 2rem ;
+        clip-path: polygon(0 0 , 100% 0 , 100% 0 , 0 0);
+    }
+
+    header .Nav-Link.active{
+        clip-path: polygon(0 0 , 100% 0 , 100% 100% , 0 100%);
+    }
+    header .Nav-Link a {
+        display: block;
+        padding: 1.5rem;
+        margin: 1.5rem;
+        border-radius: .5rem;
+        background: black;
+        color: #fff;
+    }
+     
+    .hero {
+        display: grid;
+        gap: -2rem;
+    }
+    
+    .contcontainer1 .contact h1 {
+        margin-top: 7rem;
+        font-size: 25px;
+
+    }
+    
+    .contcontainer1 .contact p {
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+    
+    .contcontainer1 .info span {
+        color: rgb(0, 174, 255);
+        margin-bottom: 3rem;
+        font-size: 20px;
+    }
+    
+    .info .email h3 {
+        margin-bottom: 15px;
+        color: rgb(74, 73, 73);
+    }
+    
+    .info .email p {
+        color: rgb(127, 125, 125);
+        margin-bottom: 20px;
+    }
+    
+    .info .office h3 {
+        margin-bottom: 15px;
+        color: rgb(74, 73, 73);
+    }
+    
+    .info .office p {
+        color: rgb(127, 125, 125);
+        margin-bottom: 20px;
+    }
+    
+    .info .phone h3 {
+        margin-bottom: 15px;
+        color: rgb(74, 73, 73);
+    }
+    
+    .info .phone p {
+        color: rgb(127, 125, 125);
+        margin-bottom: 20px;
+    }
+    
+    .phone .number a {
+        color: rgb(0, 174, 255);
+        text-decoration: none;
+        font-size: 15px;
+        margin: 0;
+    }
+    
+    .contcontainer2 {
+        background-color: aliceblue;
+        width: fit-content;
+        height: 100%;
+        padding: 5px 3px;
+        margin-top: -22rem;
+    
+    }
+    
+    .name input {
+        width: 20rem;
+        height: 3rem;
+        border-radius: 10px;
+        margin-bottom: 35px;
+    }
+    
+    .mail input {
+        width: 20rem;
+        height: 3rem;
+        border-radius: 10px;
+        margin-bottom: 35px;
+    }
+    
+    .message textarea {
+        width: 25rem;
+        height: 1rem;
+        border-radius: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .privacy {
+        display: flex;
+        font-size: 15px;
+    }
+    
+    .privacy input {
+        width: 20px;
+        height: 10px;
+    }
+    
+    .contcontainer2 button {
+        width: 350px;
+        height: 3rem;
+        color: white;
+        background-color: rgb(0, 174, 255);
+        border: none;
+        border-radius: 5px;
+    }
+    .container3 {
+        margin-top: 0rem;
+        background-color: rgb(0, 174, 255);
+        display: grid;
+        width: 480px;
+        padding: 2rem 3rem;
+        color: white;
+    }
+    .dli h2 {
+        font-size: 25px;
+        margin-bottom: 1rem;
+
+    }
+
+    .dli p {
+        font-size: 12px;
+    }
+
+    .helpful h3{
+        display: grid;
+        margin: 15rem;
+        font-size: 20px;
+        margin-top: -500px;
+    }
+    
+    .link1 a{
+        display: grid;
+        margin-top: 1rem;
+        color: #fff;
+        margin-left: 0rem;
+        text-decoration: none;
+        
+    }
+    
+    .link2 a{
+        display: grid;
+        margin-top: 1rem;
+        color: #fff;
+        margin-left: 0rem;
+        text-decoration: none;
+    }
+    
+    .link3 a{
+        display: grid;
+        margin-top: 1rem;
+        color: #fff;
+        margin-left: 0rem;
+        text-decoration: none;
+    }
+
+    .dli h2{
+        font-size: 20px;
+        margin-bottom: 1rem; 
+        margin-top: 1rem;  
+    }
+    
+    .dli p{
+ 
+        width: 400px;
+        margin-bottom: 20px;
+    
+    }
+
+    .connect{
+        width: 480px;
+        padding-left: 3rem;
+       
+    }
+    .copyright{
+        width: 480px;
+    }
+} 
+    
