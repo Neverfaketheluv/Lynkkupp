@@ -429,8 +429,9 @@ header #meun-bar{
       
     .ticket h1{
         text-align:center;
-        width: 350px;
+        width: 80%;
         font-size: 20px;
+        padding-bottom: 30px;
     }
     .ticket p{
         display: none;
@@ -447,7 +448,8 @@ header #meun-bar{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 0% auto;
+        /* margin: 0% auto; */
+        margin: 0 20px;
     }
 
     .gallery{
