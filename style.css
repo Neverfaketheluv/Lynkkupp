@@ -449,7 +449,9 @@ header #meun-bar{
         align-items: center;
         justify-content: center;
         /* margin: 0% auto; */
-        margin: 0 20px;
+        /* margin: 0 20px; */
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .gallery{
@@ -561,6 +563,7 @@ header #meun-bar{
         padding: 20px;
         width: 20rem;        
         border-radius: 10px;
+        text-align: center;
     }
     
     .container2 button{
@@ -637,6 +640,12 @@ header #meun-bar{
         width: 100%;
         padding-left: 3rem;
        
+    }
+    .line{
+        border: solid white;
+        border-width: 1px;
+        border-radius: 50px;
+        width: 100%;
     }
 
 }
