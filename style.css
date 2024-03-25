@@ -439,6 +439,7 @@ header #meun-bar{
     #backBtn, #nextBtn{
         width: 30px;
         margin: 20px;
+        display: none;
     }
     .gallery-wrap{
         width: 100%;
@@ -556,7 +557,7 @@ header #meun-bar{
     
     .container2 input{
         padding: 20px;
-        width: 25rem;        
+        width: 20rem;        
         border-radius: 10px;
     }
     
