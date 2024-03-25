@@ -374,7 +374,7 @@ header #meun-bar{
 
 @media(max-width:480px){
     header{
-        width: 97%;
+        width: 100%;
         /* background-color: aqua; */
     }
         
@@ -393,7 +393,7 @@ header #meun-bar{
     }
 
     header .Nav-Link{
-        width: 90%;
+        width: 100%;
         position: absolute;
         top: 100%;
         left:0;
