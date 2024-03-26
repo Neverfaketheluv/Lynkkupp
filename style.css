@@ -48,65 +48,11 @@ header #meun-bar{
 
 }
 
-/* @media(max-width:480px){
-
-    header{
-        width: 480px;
-    }
-        
-    header #meun-bar{ 
-        display: initial;
-        font-size:1.5rem;
-        border: 1px solid black;
-        cursor: pointer;
-        border-radius: .2rem;
-        padding: .3rem .5rem;
- 
-        
-    }
-    .navlogo img{
-        width: 80px;
-        margin-left: -30px;
-    }
-
-    header .Nav-Link{
-        position: absolute;
-        top: 100%;
-        left:0;
-        right:0;
-        background:  rgba(7, 7, 7, 0.2);
-        border-top: .1rem solid rgba(39, 10, 201, 0.2);
-        padding: 1rem 2rem ;
-        clip-path: polygon(0 0 , 100% 0 , 100% 0 , 0 0);
-    }
-
-    header .Nav-Link.active{
-        clip-path: polygon(0 0 , 100% 0 , 100% 100% , 0 100%);
-
-    }
-    header .Nav-Link a {
-        display: block;
-        padding: 1.5rem;
-        margin: 1.5rem;
-        border-radius: .5rem;
-        background: black;
-        color: #fff;
-    }
-} */
-
 .banner img{
     width: 100%;
     height: 45rem;
     background-color: aliceblue;
 }
-
-/* @media(max-width:480px){
-    .banner img{
-        width: 480px;
-        height: 22rem;
-        margin-top: 70px;
-    }
-} */
 
 .ticket{
     background-color: aliceblue;
@@ -375,7 +321,6 @@ header #meun-bar{
 @media(max-width:480px){
     header{
         width: 100%;
-        /* background-color: aqua; */
     }
         
     header #meun-bar{ 
@@ -425,6 +370,9 @@ header #meun-bar{
 
     .ticket{
         width: 100%;
+        display: flex;
+        justify-content: center;
+        
       }
       
     .ticket h1{
@@ -564,6 +512,7 @@ header #meun-bar{
         width: 20rem;        
         border-radius: 10px;
         text-align: center;
+        margin: 0 auto;
     }
     
     .container2 button{

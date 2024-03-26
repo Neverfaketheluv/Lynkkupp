@@ -295,7 +295,7 @@ header #meun-bar{
 
 @media(max-width:480px){
     header{
-        max-width: 480px;
+        width: 100%;
     }
         
     header #meun-bar{ 
@@ -305,7 +305,6 @@ header #meun-bar{
         cursor: pointer;
         border-radius: .2rem;
         padding: .3rem .5rem;
- 
         
     }
     .navlogo img{
@@ -314,6 +313,7 @@ header #meun-bar{
     }
 
     header .Nav-Link{
+        width: 100%;
         position: absolute;
         top: 100%;
         left:0;
@@ -328,6 +328,7 @@ header #meun-bar{
         clip-path: polygon(0 0 , 100% 0 , 100% 100% , 0 100%);
     }
     header .Nav-Link a {
+        width: 80%;
         display: block;
         padding: 1.5rem;
         margin: 1.5rem;
@@ -337,14 +338,16 @@ header #meun-bar{
     }
 
     .banner img{
-        width: 480px;
+        width: 100%;
         height: 22rem;
         margin-top: 70px;
     }
 
+
     .hero{
         display:contents;
-        width: 480px;
+        width: 100%;
+        display: grid;
     }
     .container1 h1{
         font-size: 1.5rem;
@@ -454,7 +457,7 @@ header #meun-bar{
         padding: 2rem 3rem;
         color: #fff;
         display: block;
-        width: 480px;
+        width: 100%;
 
         
     }
@@ -464,7 +467,14 @@ header #meun-bar{
         font-size: 20px;
         margin-bottom: 0px;
     }
-    
+    .copyright{
+        background-color: rgb(0, 174, 255);
+        text-align: center;
+        color: #ffffff;
+        padding-top:20px;
+        padding-bottom: 5rem;
+        width: 100%;
+    }
     .link1 a{
         display: grid;
         margin-top: 1rem;
@@ -498,18 +508,21 @@ header #meun-bar{
     
     .dli p{
  
-        width: 400px;
+        width: 80%;
         margin-bottom: 20px;
     
     }
 
     .connect{
-        width: 480px;
+        width: 100%;
         padding-left: 3rem;
        
     }
-    .copyright{
-        width: 480px;
+    .line{
+        border: solid white;
+        border-width: 1px;
+        border-radius: 50px;
+        width: 100%;
     }
     
 }

@@ -337,7 +337,7 @@ header #meun-bar {
 
 @media(max-width:480px){
     header{
-        width: 480px;
+        width: 100%;
     }
         
     header #meun-bar{ 
@@ -347,15 +347,15 @@ header #meun-bar {
         cursor: pointer;
         border-radius: .2rem;
         padding: .3rem .5rem;
- 
         
     }
     .navlogo img{
         width: 80px;
-        margin-left: 30px;
+        margin-left: -30px;
     }
 
     header .Nav-Link{
+        width: 100%;
         position: absolute;
         top: 100%;
         left:0;
@@ -370,6 +370,7 @@ header #meun-bar {
         clip-path: polygon(0 0 , 100% 0 , 100% 100% , 0 100%);
     }
     header .Nav-Link a {
+        width: 80%;
         display: block;
         padding: 1.5rem;
         margin: 1.5rem;
@@ -385,13 +386,13 @@ header #meun-bar {
     
     .contcontainer1 .contact h1 {
         margin-top: 7rem;
-        font-size: 25px;
+        font-size: 20px;
 
     }
     
     .contcontainer1 .contact p {
         margin-bottom: 15px;
-        font-size: 15px;
+        font-size: 10px;
     }
     
     .contcontainer1 .info span {
@@ -403,37 +404,43 @@ header #meun-bar {
     .info .email h3 {
         margin-bottom: 15px;
         color: rgb(74, 73, 73);
+        font-size: 15px;
     }
     
     .info .email p {
         color: rgb(127, 125, 125);
         margin-bottom: 20px;
+        font-size: 10px;
     }
     
     .info .office h3 {
         margin-bottom: 15px;
         color: rgb(74, 73, 73);
+        font-size: 15px;
     }
     
     .info .office p {
         color: rgb(127, 125, 125);
         margin-bottom: 20px;
+        font-size: 10px;
     }
     
     .info .phone h3 {
         margin-bottom: 15px;
         color: rgb(74, 73, 73);
+        font-size: 15px;
     }
     
     .info .phone p {
         color: rgb(127, 125, 125);
         margin-bottom: 20px;
+        font-size: 10px;
     }
     
     .phone .number a {
         color: rgb(0, 174, 255);
         text-decoration: none;
-        font-size: 15px;
+        font-size: 10px;
         margin: 0;
     }
     
@@ -441,27 +448,27 @@ header #meun-bar {
         background-color: aliceblue;
         width: fit-content;
         height: 100%;
-        padding: 5px 3px;
-        margin-top: -22rem;
+        /* padding: 5px 3px; */
+        margin-top: -25rem;
     
     }
     
     .name input {
-        width: 20rem;
+        width: 100%;
         height: 3rem;
         border-radius: 10px;
         margin-bottom: 35px;
     }
     
     .mail input {
-        width: 20rem;
+        width: 100%;
         height: 3rem;
         border-radius: 10px;
         margin-bottom: 35px;
     }
     
     .message textarea {
-        width: 25rem;
+        width: 100%;
         height: 1rem;
         border-radius: 30px;
         margin-bottom: 20px;
@@ -469,7 +476,7 @@ header #meun-bar {
     
     .privacy {
         display: flex;
-        font-size: 15px;
+        font-size: 10px;
     }
     
     .privacy input {
@@ -478,38 +485,36 @@ header #meun-bar {
     }
     
     .contcontainer2 button {
-        width: 350px;
+        width: 100%;
         height: 3rem;
         color: white;
         background-color: rgb(0, 174, 255);
         border: none;
         border-radius: 5px;
     }
-    .container3 {
-        margin-top: 0rem;
+    .container3{
         background-color: rgb(0, 174, 255);
-        display: grid;
-        width: 480px;
-        padding: 2rem 3rem;
-        color: white;
-    }
-    .dli h2 {
-        font-size: 25px;
-        margin-bottom: 1rem;
+        /* padding: 2rem 3rem; */
+        color: #fff;
+        display: block;
+        width: 100%;
 
-    }
-
-    .dli p {
-        font-size: 12px;
+        
     }
 
     .helpful h3{
-        display: grid;
-        margin: 15rem;
+        margin-left: 0rem;
         font-size: 20px;
-        margin-top: -500px;
+        margin-bottom: 0px;
     }
-    
+    .copyright{
+        background-color: rgb(0, 174, 255);
+        text-align: center;
+        color: #ffffff;
+        padding-top:20px;
+        padding-bottom: 5rem;
+        width: 100%;
+    }
     .link1 a{
         display: grid;
         margin-top: 1rem;
@@ -543,18 +548,22 @@ header #meun-bar {
     
     .dli p{
  
-        width: 400px;
+        width: 80%;
         margin-bottom: 20px;
     
     }
 
     .connect{
-        width: 480px;
+        width: 100%;
         padding-left: 3rem;
        
     }
-    .copyright{
-        width: 480px;
+    .line{
+        border: solid white;
+        border-width: 1px;
+        border-radius: 50px;
+        width: 100%;
     }
+
 } 
     
