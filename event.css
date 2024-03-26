@@ -1,6 +1,6 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     border: none;
     font-family: 'Poppins', sans-serif;
@@ -45,6 +45,7 @@ header #meun-bar{
     border-radius: .5rem;
     padding: .5rem 1.2rem;
     display: none;
+
 }
 
 .banner img{
@@ -52,6 +53,7 @@ header #meun-bar{
     height: 45rem;
     background-color: aliceblue;
 }
+
 
 .container1{
     background-color: aliceblue;
@@ -123,7 +125,7 @@ header #meun-bar{
 
 .dli p{
     border: none;
-    width: 40%;
+    width: 45%;
     height: 60%;
     line-height: 30px;
     margin-right: 20rem;
@@ -141,6 +143,7 @@ header #meun-bar{
     color: #fff;
     margin-left: -35rem;
     text-decoration: none;
+    
 }
 
 .link2 a{
@@ -176,7 +179,7 @@ header #meun-bar{
 .line{
     border: solid white;
     border-width: 1px;
-    border-radius: 50;
+    border-radius: 50px;
 }
 .copyright{
     background-color: rgb(0, 174, 255);
@@ -203,7 +206,6 @@ header #meun-bar{
     font-size: 20px;
     border-radius: 10px;
     cursor: pointer;
-    border: none;
 }
 .welcome .msgcontainer{
     border: solid;
@@ -231,7 +233,6 @@ header #meun-bar{
 @media(max-width:480px){
     header{
         width: 100%;
-        /* background-color: aqua; */
     }
         
     header #meun-bar{ 
@@ -274,8 +275,8 @@ header #meun-bar{
     }
 
     .banner img{
-        width: 480px;
-        height: 20rem;
+        width: 100%;
+        height: 22rem;
         margin-top: 70px;
     }
 
@@ -298,7 +299,6 @@ header #meun-bar{
         color: #fff;
         display: block;
         width: 100%;
-
         
     }
 
