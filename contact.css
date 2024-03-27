@@ -320,7 +320,7 @@ header #meun-bar{
     .hero {
         display: grid;
         gap: -5rem;
-        margin-left: 20px;
+        margin:0px 10px;
     }
     
     .contcontainer1 .contact h1 {
