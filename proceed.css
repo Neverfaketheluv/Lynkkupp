@@ -401,7 +401,7 @@ header #meun-bar{
     .span{
         display: flex;
         gap: 5px;
-        padding: 10px 80px;
+        padding: 10px 50px;
         font-size: 15px;
     }
     .linkup{
@@ -409,17 +409,17 @@ header #meun-bar{
     
     }
     .linkup h3{
-        margin: 20px 0px;
+        margin: 15px 0px;
         font-size: 15px;
     }
     .flex1 .p1{
         margin-top: 10px;
-        margin-right: 5rem;
+        margin-right: 3rem;
         font-size: 15px;
     }
     .flex1 .p2{
         margin-top: 10px;
-        margin-right: 2rem;
+        margin-right: 1.5rem;
         font-size: 15px;
     }
     .flex1 .minus{
@@ -428,7 +428,7 @@ header #meun-bar{
         border-radius: 50%;
         padding: 2px 5px;
         margin-top: 10px;
-        margin-right: 2rem;
+        margin-right: 1.5rem;
         color:  rgb(110, 109, 109);
     }
     .flex1 .minus:hover{
@@ -439,7 +439,7 @@ header #meun-bar{
     .flex1 .p3{
         font-size:15px;
         margin-top: 10px;
-        margin-right: 3rem;
+        margin-right: 1.5rem;
     }
     .flex1 .plus{
         font-size: 15px;
@@ -462,11 +462,11 @@ header #meun-bar{
     }
     .flex2 .p1{
         margin-top: 1px;
-        margin-right: 2rem;
+        margin-right: 1.5rem;
         font-size: 15px;
     }
     .flex2 .p2{
-        margin-left: 12rem;
+        margin-left: 8rem;
         font-size: 15px;
     }
     .linkup .checkout a{
