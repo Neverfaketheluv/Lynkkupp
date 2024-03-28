@@ -45,15 +45,308 @@ header #meun-bar{
     border-radius: .5rem;
     padding: .5rem 1.2rem;
     display: none;
+}
+
+.banner img{
+    width: 100%;
+    height: 45rem;
+    background-color: aliceblue;
+}
+.hero{
+    margin: 50px 20px;
+    display: flex;
+    gap: 20rem;
+}
+.container1 h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.container1 img{
+    width:19.5rem;
+    height: 20rem;
+    border-radius: 5px;
+}
+.head a{
+    border: none;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(218, 218, 218);
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.body{
+    background-color: rgb(251, 244, 244);
+    margin-top: 10px;
+    border-radius: 10px;
+    border:none;
+    height: 100%;
+    width: 100%;
+}
+.span{
+    display: flex;
+    gap: 10px;
+    padding: 30px 150px;
+    font-size: 20px;
+}
+.linkup{
+    margin-left: 10px;
+}
+.linkup h3{
+    margin: 20px 0px;
+}
+.linkup .flex1{
+    display: flex;
+}
+.flex1 .p1{
+    margin-top: 10px;
+    margin-right: 13rem;
+    font-size: 20px;
+}
+.flex1 .p2{
+    margin-top: 10px;
+    margin-right: 3rem;
+    font-size: 20px;
+}
+.flex1 .minus{
+    font-size: 20px;
+    border: solid;
+    border-radius: 50%;
+    padding: 2px 5px;
+    margin-top: 10px;
+    margin-right: 3rem;
+    color:  rgb(110, 109, 109);
+}
+.flex1 .minus:hover{
+    background-color: rgb(43, 41, 41);
+    color: white;
+    cursor: pointer;
+}
+.flex1 .p3{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 3rem;
+}
+.flex1 .plus{
+    font-size: 20px;
+    border: solid;
+    border-radius: 50%;
+    padding: 2px 5px;
+    margin-right: 3rem;
+    margin-top: 10px;
+    color:  rgb(0, 174, 255);
+}
+.flex1 .plus:hover{
+    background-color:rgb(0, 174, 255);
+    color: white;
+    cursor: pointer;
+}
+.flex2{
+    display: flex;
+    /* gap: 80%; */
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.flex2 .p1{
+    margin-top: 10px;
+    margin-right: 13rem;
+    font-size: 20px;
+}
+.flex2 .p2{
+    /* margin-top: 20px; */
+    margin-left: 12rem;
+    font-size: 20px;
+}
+.linkup .checkout a{
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(0, 174, 255);
+    color: white;
+    padding: 20px 200px;
+    cursor: pointer;
+}
+.linkup .checkout a:hover{
+    background-color:  rgb(139, 208, 240);
+}
+.whenwhere{
+    margin: 50px 30px;
+}
+.whenwhere h3{
+    margin-bottom: 20px;
+}
+.DTL{
+    display: flex;
+    gap: 50px;
+}
+.DTL span{
+    font-size: 25px;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 10px;
+    color: rgb(190, 214, 225);
+    background-color: rgb(0, 174, 255);
+}
+.DTL h5{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.DTL p{
+    margin-top: 5px;
+    color: rgb(108, 105, 105);
+}
+.about{
+    margin:  50px 30px;
+}
+.about h3{
+    margin-bottom:10px;
+}
+.about p{
+    color: rgb(110, 109, 109);
+    font-size: 15px;
+}
+.tag{
+    margin: 100px 30px;
+}
+.container3{
+    background-color: rgb(0, 174, 255);
+    padding: 5rem 1rem;
+    color: #fff;
+    display: flex;
+}
+.dli h2{
+    font-size: 20px;
+    margin-bottom: 1rem;   
+}
+
+.dli p{
+    border: none;
+    width: 45%;
+    height: 60%;
+    line-height: 30px;
+    margin-right: 20rem;
+}
+
+.helpful h3{
+    margin-left: -35rem;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.link1 a{
+    display: grid;
+    margin-top: 30px;
+    color: #fff;
+    margin-left: -35rem;
+    text-decoration: none;
+    
+}
+
+.link2 a{
+    display: grid;
+    margin-top: 30px;
+    color: #fff;
+    margin-left: -10rem;
+    text-decoration: none;
+}
+
+.link3 a{
+    display: grid;
+    margin-top: 30px;
+    color: #fff;
+    margin-left: 10rem;
+    text-decoration: none;
+}
+
+.connect{
+    background-color: rgb(0, 174, 255);
+    color: #fff;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+.connect p{
+    margin-bottom: 15px;
+}
+.connect span{
+    font-size: 30px;
+    margin-right: 5px;
 
 }
-@media(max-width:995px){
+.line{
+    border: solid white;
+    border-width: 1px;
+    border-radius: 50px;
+}
+.copyright{
+    background-color: rgb(0, 174, 255);
+    text-align: center;
+    color: #fff;
+    padding-top:20px;
+    padding-bottom: 5rem;
+}
+.welcome{
+    display: flex;
+    gap: 25px;
+    cursor: pointer;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+}
+.welcome button{
+    width: 200px;
+    height: 50px;
+    background-color:white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.welcome .msgcontainer{
+    border: solid;
+    border-radius: 100rem;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0, 174, 255);
+    display: flex;
+   align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.welcome .msgcontainer a{
+    color: #fff;
+    font-size: 20px;
+    transition: transform 0.5s;
+}
+
+.welcome .msgcontainer a:hover{
+    transform: scale(1.3);
+}
+
+@media(max-width:480px){
+    header{
+        width: 100%;
+    }
         
     header #meun-bar{ 
         display: initial;
+        font-size:1.5rem;
+        border: 1px solid black;
+        cursor: pointer;
+        border-radius: .2rem;
+        padding: .3rem .5rem;
+        
+    }
+    .navlogo img{
+        width: 80px;
+        margin-left: -30px;
     }
 
     header .Nav-Link{
+        width: 100%;
         position: absolute;
         top: 100%;
         left:0;
@@ -66,9 +359,9 @@ header #meun-bar{
 
     header .Nav-Link.active{
         clip-path: polygon(0 0 , 100% 0 , 100% 100% , 0 100%);
-
     }
     header .Nav-Link a {
+        width: 80%;
         display: block;
         padding: 1.5rem;
         margin: 1.5rem;
@@ -76,47 +369,197 @@ header #meun-bar{
         background: black;
         color: #fff;
     }
-}
 
-.banner img{
-    width: 100%;
-    height: 45rem;
-    background-color: aliceblue;
-}
-
-@media(max-width:995px){
     .banner img{
-        width: 45rem;
+        width: 100%;
         height: 22rem;
         margin-top: 70px;
     }
-}
-.banner img{
-    width: 100%;
-    height: 45rem;
-    background-color: aliceblue;
-}
-
-@media(max-width:995px){
-    .banner img{
-        width: 50rem;
-        height: 22rem;
-        margin-top: 70px;
+    .hero{
+        display: grid;
+        gap: 0px;
     }
-}
-.hero{
-    display: flex;
-}
-.container1 h1{
-    padding-top: 2rem;
-    font-size: 2.5rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-bottom: 1rem;
-    padding-left: 1.5rem;
-}
-.container1 img{
-    width:19.5rem;
-    height: 20rem;
-    border-radius: 5px;
-    margin-left: 1.5rem;
+    .container1 h1{
+        display: none;
+    }
+    .container1 img{
+        display: none;
+    }
+    .head a{
+        font-size: 15px;
+        padding: 5px 10px;
+        margin-top: 0px;
+    }
+    .body{
+        background-color: rgb(251, 244, 244);
+        margin-top: 10px;
+        border-radius: 10px;
+        border:none;
+        height: 75%;
+        width: 100%;
+    }
+    .span{
+        display: flex;
+        gap: 5px;
+        padding: 10px 100px;
+        font-size: 15px;
+    }
+    .linkup{
+        margin-left: 10px;
+    
+    }
+    .linkup h3{
+        margin: 20px 0px;
+        font-size: 15px;
+    }
+    .flex1 .p1{
+        margin-top: 10px;
+        margin-right: 5rem;
+        font-size: 15px;
+    }
+    .flex1 .p2{
+        margin-top: 10px;
+        margin-right: 3rem;
+        font-size: 15px;
+    }
+    .flex1 .minus{
+        font-size: 15px;
+        border: solid;
+        border-radius: 50%;
+        padding: 2px 5px;
+        margin-top: 10px;
+        margin-right: 3rem;
+        color:  rgb(110, 109, 109);
+    }
+    .flex1 .minus:hover{
+        background-color: rgb(43, 41, 41);
+        color: white;
+        cursor: pointer;
+    }
+    .flex1 .p3{
+        font-size:15px;
+        margin-top: 10px;
+        margin-right: 3rem;
+    }
+    .flex1 .plus{
+        font-size: 15px;
+        border: solid;
+        border-radius: 50%;
+        padding: 2px 5px;
+        margin-right: 3rem;
+        margin-top: 10px;
+        color:  rgb(0, 174, 255);
+    }
+    .flex1 .plus:hover{
+        background-color:rgb(0, 174, 255);
+        color: white;
+        cursor: pointer;
+    }
+    .flex2{
+        display: flex;
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+    .flex2 .p1{
+        margin-top: 1px;
+        margin-right: 3rem;
+        font-size: 15px;
+    }
+    .flex2 .p2{
+        margin-left: 12rem;
+        font-size: 20px;
+    }
+    .linkup .checkout a{
+        text-align: center;
+        text-decoration: none;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(0, 174, 255);
+        color: white;
+        padding: 15px 130px;
+        cursor: pointer;
+    }
+    .linkup .checkout a:hover{
+        background-color:  rgb(139, 208, 240);
+    }
+    .whenwhere{
+        margin: 50px 10px;
+    }
+
+    .about{
+        margin:  50px 10px;
+    }
+    .tag{
+        margin: 100px 10px;
+    }
+    .container3{
+        background-color: rgb(0, 174, 255);
+        padding: 2rem 3rem;
+        color: #fff;
+        display: block;
+        width: 100%;
+    }
+
+    .helpful h3{
+        margin-left: 0rem;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .copyright{
+        background-color: rgb(0, 174, 255);
+        text-align: center;
+        color: #ffffff;
+        padding-top:20px;
+        padding-bottom: 5rem;
+        width: 100%;
+    }
+    .link1 a{
+        display: grid;
+        margin-top: 1rem;
+        color: #fff;
+        margin-left: 0rem;
+        text-decoration: none;
+        
+    }
+    
+    .link2 a{
+        display: grid;
+        margin-top: 1rem;
+        color: #fff;
+        margin-left: 0rem;
+        text-decoration: none;
+    }
+    
+    .link3 a{
+        display: grid;
+        margin-top: 1rem;
+        color: #fff;
+        margin-left: 0rem;
+        text-decoration: none;
+    }
+
+    .dli h2{
+        font-size: 20px;
+        margin-bottom: 1rem; 
+        margin-top: 1rem;  
+    }
+    
+    .dli p{
+ 
+        width: 80%;
+        margin-bottom: 20px;
+    
+    }
+
+    .connect{
+        width: 100%;
+        padding-left: 3rem;
+       
+    }
+    .line{
+        border: solid white;
+        border-width: 1px;
+        border-radius: 50px;
+        width: 100%;
+    }
 }
