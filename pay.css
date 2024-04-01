@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    transition: all .5s linear;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 9%;
+    background: white;
+    z-index: 1000;
+}
+
+.navlogo img{
+    width: 80px;
+    margin-left: 50px;
+}
+
+header a {
+    color: black;
+    font-size: 1rem;
+    margin: 0 .8rem;
+    text-decoration: none;
+}
+
+header a:active {
+    color:  rgb(0, 174, 255);
+}
+
+header #meun-bar{
+    color: black;
+    font-size: 3rem;
+    border: .1rem solid black;
+    cursor: pointer;
+    border-radius: .5rem;
+    padding: .5rem 1.2rem;
+    display: none;
+}
+
+.banner img{
+    width: 100%;
+    height: 45rem;
+    background-color: aliceblue;
+}
+.hero{
+    margin: 50px 20px;
+    display: flex;
+    gap: 10rem;
+}
+.head a{
+    border: none;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(218, 218, 218);
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.info h1{
+    margin-top: 20px;
+}
+.info p{
+    margin-top: 10px;
+    font-size: large;
+    margin-bottom: 35px;
+}
+.input{
+    display: grid;
+    gap: 25px;
+} 
+.input input{
+    border: solid rgb(0, 174, 255);
+    border-radius: 10px;
+    padding: 15px 5px;
+    font-size: 15px;
+    width: 40rem;
+}
+.box{
+    display: flex;
+    margin-top: 30px;
+    gap: 5px;
+    font-size: 13px;
+}
+.box input{
+    width: 20px;
+    height: 20px;
+    color: rgb(0, 174, 255);
+}
+.container2{
+    background-color: rgb(251, 244, 244);
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    height: 24rem;
+    width: 80rem;
+}
+.span{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin: 30px 0px;
+    font-size: 20px;
+}
+.linkup{
+    margin-left: 10px;
+}
+.linkup h3{
+    margin: 20px 0px;
+    
+}
+.flex1{
+    display: flex;
+    gap: 15rem;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 3rem;
+}
+.flex2{
+    display: flex;
+    gap: 30rem;
+    margin-top: 25px;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.checkout a{
+   margin-left: 30px;
+    padding: 1rem 17rem;
+    border: none;
+    border-radius: 10px;
+   text-decoration: none;
+   text-align: center;
+   background-color: rgb(0, 174, 255);
+   color: white;
+}
+.code input{
+    margin-left: 10px;
+    border: solid rgb(0, 174, 255);
+    border-radius: 10px;
+    padding: 15px 5px;
+    font-size: 15px;
+    width: 30rem;
+}
+.code button{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(0, 174, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.check a{
+    margin-left: 10px;
+    padding: 1rem 10rem;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(0, 174, 255);
+    color: white;
+    display: none;
+ }
+.container3{
+    background-color: rgb(0, 174, 255);
+    padding: 5rem 1rem;
+    color: #fff;
+    display: flex;
+    margin-top: 50px;
+}
+.dli h2{
+    font-size: 20px;
+    margin-bottom: 1rem;   
+}
+
+.dli p{
+    border: none;
+    width: 45%;
+    height: 60%;
+    line-height: 30px;
+    margin-right: 20rem;
+}
+
+.helpful h3{
+    margin-left: -35rem;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.link1 a{
+    display: grid;
+    margin-top: 30px;
+    color: #fff;
+    margin-left: -35rem;
+    text-decoration: none;
+    
+}
+
+.link2 a{
+    display: grid;
+    margin-top: 30px;
+    color: #fff;
+    margin-left: -10rem;
+    text-decoration: none;
+}
+
+.link3 a{
+    display: grid;
+    margin-top: 30px;
+    color: #fff;
+    margin-left: 10rem;
+    text-decoration: none;
+}
+
+.connect{
+    background-color: rgb(0, 174, 255);
+    color: #fff;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+.connect p{
+    margin-bottom: 15px;
+}
+.connect span{
+    font-size: 30px;
+    margin-right: 5px;
+
+}
+.line{
+    border: solid white;
+    border-width: 1px;
+    border-radius: 50px;
+}
+.copyright{
+    background-color: rgb(0, 174, 255);
+    text-align: center;
+    color: #fff;
+    padding-top:20px;
+    padding-bottom: 5rem;
+}
+.welcome{
+    display: flex;
+    gap: 25px;
+    cursor: pointer;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+}
+.welcome button{
+    width: 200px;
+    height: 50px;
+    background-color:white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.welcome .msgcontainer{
+    border: solid;
+    border-radius: 100rem;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0, 174, 255);
+    display: flex;
+   align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.welcome .msgcontainer a{
+    color: #fff;
+    font-size: 20px;
+    transition: transform 0.5s;
+}
+
+.welcome .msgcontainer a:hover{
+    transform: scale(1.3);
+}
+
+@media(max-width:480px){
+    header{
+        width: 100%;
+    }
+        
+    header #meun-bar{ 
+        display: initial;
+        font-size:1.5rem;
+        border: 1px solid black;
+        cursor: pointer;
+        border-radius: .2rem;
+        padding: .3rem .5rem;
+        
+    }
+    .navlogo img{
+        width: 80px;
+        margin-left: -30px;
+    }
+
+    header .Nav-Link{
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left:0;
+        right:0;
+        background:  rgba(7, 7, 7, 0.2);
+        border-top: .1rem solid rgba(39, 10, 201, 0.2);
+        padding: 1rem 2rem ;
+        clip-path: polygon(0 0 , 100% 0 , 100% 0 , 0 0);
+    }
+
+    header .Nav-Link.active{
+        clip-path: polygon(0 0 , 100% 0 , 100% 100% , 0 100%);
+    }
+    header .Nav-Link a {
+        width: 80%;
+        display: block;
+        padding: 1.5rem;
+        margin: 1.5rem;
+        border-radius: .5rem;
+        background: black;
+        color: #fff;
+    }
+
+    .banner img{
+        width: 100%;
+        height: 22rem;
+        margin-top: 70px;
+    }
+    .hero{
+        margin: 50px 20px;
+        display: grid;
+    }
+    .head a{
+      font-size: 13px;
+    }
+    .info h1{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .info p{
+        margin-top: 10px;
+        font-size: 15px;
+        margin-bottom: 35px;
+    }
+    .input{
+        display: grid;
+        gap: 15px;
+    } 
+    .input input{
+        border: solid rgb(0, 174, 255);
+        border-radius: 10px;
+        padding: 15px 5px;
+        font-size: 15px;
+        width: 25rem;
+    }
+    .box{
+        display: flex;
+        margin-top: 30px;
+        gap: 5px;
+        font-size: 10px;
+    }
+    .box input{
+        width: 10px;
+        height: 15px;
+        color: rgb(0, 174, 255);
+    }
+    .container2{
+        display: none;
+    }
+    .span{
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        margin: 30px 0px;
+        font-size: 20px;
+    }
+    .linkup{
+        margin-left: 10px;
+        display: none;
+    }
+    
+    .checkout a{
+       margin-left: 30px;
+       padding: 1rem 10rem;
+        border: none;
+        border-radius: 10px;
+       text-decoration: none;
+       text-align: center;
+       background-color: rgb(0, 174, 255);
+       color: white;
+    }
+    .code input{
+        width: 20rem;
+    }
+    .check a{
+        margin-left: 10px;
+         padding: 1rem 8rem;
+         border: none;
+         border-radius: 10px;
+        text-decoration: none;
+        text-align: center;
+        background-color: rgb(0, 174, 255);
+        color: white;
+        display: block;
+     }
+     .container3{
+        background-color: rgb(0, 174, 255);
+        padding: 2rem 3rem;
+        color: #fff;
+        display: block;
+        width: 100%;
+    }
+
+    .helpful h3{
+        margin-left: 0rem;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .copyright{
+        background-color: rgb(0, 174, 255);
+        text-align: center;
+        color: #ffffff;
+        padding-top:20px;
+        padding-bottom: 5rem;
+        width: 100%;
+    }
+    .link1 a{
+        display: grid;
+        margin-top: 1rem;
+        color: #fff;
+        margin-left: 0rem;
+        text-decoration: none; 
+    }
+    
+    .link2 a{
+        display: grid;
+        margin-top: 1rem;
+        color: #fff;
+        margin-left: 0rem;
+        text-decoration: none;
+    }
+    
+    .link3 a{
+        display: grid;
+        margin-top: 1rem;
+        color: #fff;
+        margin-left: 0rem;
+        text-decoration: none;
+    }
+
+    .dli h2{
+        font-size: 20px;
+        margin-bottom: 1rem; 
+        margin-top: 1rem;  
+    }
+    
+    .dli p{
+ 
+        width: 80%;
+        margin-bottom: 20px;
+    
+    }
+
+    .connect{
+        width: 100%;
+        padding-left: 3rem;
+       
+    }
+    .line{
+        border: solid white;
+        border-width: 1px;
+        border-radius: 50px;
+        width: 100%;
+    }
+}
