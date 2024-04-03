@@ -108,6 +108,8 @@ header #meun-bar{
     font-size: 20px;
 }
 .flex1 .minus{
+    width: 30px;
+    height: 30px;
     font-size: 20px;
     border: solid;
     border-radius: 50%;
@@ -127,6 +129,8 @@ header #meun-bar{
     margin-right: 3rem;
 }
 .flex1 .plus{
+    width: 30px;
+    height: 30px;
     font-size: 20px;
     border: solid;
     border-radius: 50%;
@@ -142,9 +146,14 @@ header #meun-bar{
 }
 .flex2{
     display: flex;
+    /* justify-content: center; */
+    align-items: center;
     /* gap: 80%; */
     margin-top: 50px;
     margin-bottom: 80px;
+}
+.flex2 .naira{
+    margin-left: 12rem;
 }
 .flex2 .p1{
     margin-top: 10px;
@@ -153,7 +162,7 @@ header #meun-bar{
 }
 .flex2 .p2{
     /* margin-top: 20px; */
-    margin-left: 12rem;
+    
     font-size: 20px;
 }
 .linkup .checkout a{
