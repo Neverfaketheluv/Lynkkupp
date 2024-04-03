@@ -146,9 +146,7 @@ header #meun-bar{
 }
 .flex2{
     display: flex;
-    /* justify-content: center; */
     align-items: center;
-    /* gap: 80%; */
     margin-top: 50px;
     margin-bottom: 80px;
 }
@@ -161,8 +159,6 @@ header #meun-bar{
     font-size: 20px;
 }
 .flex2 .p2{
-    /* margin-top: 20px; */
-    
     font-size: 20px;
 }
 .linkup .checkout a{
@@ -475,6 +471,9 @@ header #meun-bar{
         margin-top: 1px;
         margin-right: 1.5rem;
         font-size: 15px;
+    }
+    .flex2 .naira{
+        margin-left: 10rem;
     }
     .flex2 .p2{
         margin-left: 0rem;
